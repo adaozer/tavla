@@ -148,6 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7fc662d6085e4876a495776f6328afb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  totalResult: 0
   dice1: {fileID: 1415137686}
   dice2: {fileID: 330017574}
   Die1: 0
@@ -209,8 +210,8 @@ Transform:
   m_GameObject: {fileID: 330017573}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 235.72873, y: 306.94547, z: 0.04486561}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 240, y: 312, z: 2.5}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 488048081}
@@ -439,7 +440,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 207, y: 298, z: -10}
+  m_LocalPosition: {x: 207, y: 297.87, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -652,7 +653,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -248, y: 127}
+  m_AnchoredPosition: {x: -444, y: 196}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &919841505
@@ -1178,8 +1179,8 @@ Transform:
   m_GameObject: {fileID: 1415137685}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 242.82872, y: 307.24545, z: 2.7320824}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 238, y: 312, z: 2.5}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1083989850}
