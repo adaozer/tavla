@@ -3,6 +3,13 @@ using UnityEngine;
 public class collisionScript : MonoBehaviour
 {
     public int pointIndex;
+    public BoxCollider2D m_Collider;
+
+    void Start()
+    {
+        m_Collider = GetComponent<BoxCollider2D>();
+        m_Collider.enabled = false; // Disable colliders initially
+    }
 
     private void OnMouseDown()
     {
@@ -12,7 +19,7 @@ public class collisionScript : MonoBehaviour
 
         if (GameManagerScript.Instance.selectedChecker != null)
         {
-            // Send the point to GameManager for handling
+            // Notify GameManager that this point was clicked
             GameManagerScript.Instance.OnPointClicked(this);
         }
         else

@@ -12,8 +12,8 @@ public class checkerScript : MonoBehaviour
 
         if (GameManagerScript.Instance.selectedChecker == null)
         {
-            // Send the checker to GameManager for handling
-            GameManagerScript.Instance.OnCheckerClicked(this);
+            // Notify GameManager that this checker was clicked
+            GameManagerScript.Instance.OnCheckerClicked(gameObject);
         }
         else
         {

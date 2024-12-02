@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 25908186}
   - component: {fileID: 25908185}
   - component: {fileID: 25908184}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 25908182}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.65, y: 2, z: 0}
+  m_LocalPosition: {x: 1.65, y: 2, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 79842215}
   - component: {fileID: 79842216}
   - component: {fileID: 79842217}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,7 +360,7 @@ GameObject:
   - component: {fileID: 115118682}
   - component: {fileID: 115118683}
   - component: {fileID: 115118684}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -453,7 +453,7 @@ GameObject:
   - component: {fileID: 143072437}
   - component: {fileID: 143072436}
   - component: {fileID: 143072435}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,7 +469,7 @@ Transform:
   m_GameObject: {fileID: 143072433}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 2.6, z: 0}
+  m_LocalPosition: {x: -1, y: 2.6, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -590,7 +590,7 @@ GameObject:
   - component: {fileID: 159173702}
   - component: {fileID: 159173703}
   - component: {fileID: 159173704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,6 +700,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8f9b2df373d2214a84a74dc1397816f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedChecker: {fileID: 0}
+  selectedPoint: {fileID: 0}
 --- !u!4 &181053879
 Transform:
   m_ObjectHideFlags: 0
@@ -726,7 +728,7 @@ GameObject:
   - component: {fileID: 200483220}
   - component: {fileID: 200483221}
   - component: {fileID: 200483222}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -816,7 +818,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 206871293}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checkers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -832,7 +834,7 @@ Transform:
   m_GameObject: {fileID: 206871292}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 210.76, y: 299.51, z: 0.050089955}
+  m_LocalPosition: {x: 210.76, y: 299.51, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -865,7 +867,7 @@ GameObject:
   - component: {fileID: 227932144}
   - component: {fileID: 227932143}
   - component: {fileID: 227932142}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -881,7 +883,7 @@ Transform:
   m_GameObject: {fileID: 227932140}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.65, y: 3.2, z: 0}
+  m_LocalPosition: {x: 1.65, y: 3.2, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1003,7 +1005,7 @@ GameObject:
   - component: {fileID: 233520333}
   - component: {fileID: 233520332}
   - component: {fileID: 233520331}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1019,7 +1021,7 @@ Transform:
   m_GameObject: {fileID: 233520329}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2, y: 1.65, z: 0}
+  m_LocalPosition: {x: -7.2, y: 1.65, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1140,7 +1142,7 @@ GameObject:
   - component: {fileID: 254524279}
   - component: {fileID: 254524280}
   - component: {fileID: 254524281}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1336,7 +1338,7 @@ GameObject:
   - component: {fileID: 340579760}
   - component: {fileID: 340579759}
   - component: {fileID: 340579758}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1352,7 +1354,7 @@ Transform:
   m_GameObject: {fileID: 340579756}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2, y: 2.25, z: 0}
+  m_LocalPosition: {x: -7.2, y: 2.25, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1474,7 +1476,7 @@ GameObject:
   - component: {fileID: 361465135}
   - component: {fileID: 361465134}
   - component: {fileID: 361465133}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1490,7 +1492,7 @@ Transform:
   m_GameObject: {fileID: 361465131}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.75, y: -5.5, z: 0}
+  m_LocalPosition: {x: -0.75, y: -5.5, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1612,7 +1614,7 @@ GameObject:
   - component: {fileID: 435406123}
   - component: {fileID: 435406122}
   - component: {fileID: 435406121}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1628,7 +1630,7 @@ Transform:
   m_GameObject: {fileID: 435406119}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4, y: -4.9, z: 0}
+  m_LocalPosition: {x: -3.4, y: -4.9, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1973,7 +1975,7 @@ GameObject:
   - component: {fileID: 539607623}
   - component: {fileID: 539607624}
   - component: {fileID: 539607625}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2066,7 +2068,7 @@ GameObject:
   - component: {fileID: 563495115}
   - component: {fileID: 563495114}
   - component: {fileID: 563495113}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2082,7 +2084,7 @@ Transform:
   m_GameObject: {fileID: 563495111}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -3.3, z: 0}
+  m_LocalPosition: {x: -5, y: -3.3, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2204,7 +2206,7 @@ GameObject:
   - component: {fileID: 617240603}
   - component: {fileID: 617240602}
   - component: {fileID: 617240601}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2220,7 +2222,7 @@ Transform:
   m_GameObject: {fileID: 617240599}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -3.9, z: 0}
+  m_LocalPosition: {x: -5, y: -3.9, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2426,7 +2428,7 @@ GameObject:
   - component: {fileID: 625005035}
   - component: {fileID: 625005034}
   - component: {fileID: 625005033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2442,7 +2444,7 @@ Transform:
   m_GameObject: {fileID: 625005031}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2, y: 1.05, z: 0}
+  m_LocalPosition: {x: -7.2, y: 1.05, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2564,7 +2566,7 @@ GameObject:
   - component: {fileID: 649362859}
   - component: {fileID: 649362858}
   - component: {fileID: 649362857}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2580,7 +2582,7 @@ Transform:
   m_GameObject: {fileID: 649362855}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -1.5, z: 0}
+  m_LocalPosition: {x: -5, y: -1.5, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2702,7 +2704,7 @@ GameObject:
   - component: {fileID: 719338233}
   - component: {fileID: 719338232}
   - component: {fileID: 719338231}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2718,7 +2720,7 @@ Transform:
   m_GameObject: {fileID: 719338229}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.6, y: -3.3, z: 0}
+  m_LocalPosition: {x: 6.6, y: -3.3, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2926,7 +2928,7 @@ GameObject:
   - component: {fileID: 776993289}
   - component: {fileID: 776993290}
   - component: {fileID: 776993291}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3019,7 +3021,7 @@ GameObject:
   - component: {fileID: 827958236}
   - component: {fileID: 827958235}
   - component: {fileID: 827958234}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3035,7 +3037,7 @@ Transform:
   m_GameObject: {fileID: 827958232}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.65, y: 1.4, z: 0}
+  m_LocalPosition: {x: 1.65, y: 1.4, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3156,7 +3158,7 @@ GameObject:
   - component: {fileID: 869299996}
   - component: {fileID: 869299997}
   - component: {fileID: 869299998}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3248,7 +3250,7 @@ GameObject:
   - component: {fileID: 879160359}
   - component: {fileID: 879160360}
   - component: {fileID: 879160361}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3473,7 +3475,7 @@ GameObject:
   - component: {fileID: 977920314}
   - component: {fileID: 977920316}
   - component: {fileID: 977920315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3566,7 +3568,7 @@ GameObject:
   - component: {fileID: 983561342}
   - component: {fileID: 983561341}
   - component: {fileID: 983561340}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3582,7 +3584,7 @@ Transform:
   m_GameObject: {fileID: 983561338}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4, y: -4.3, z: 0}
+  m_LocalPosition: {x: -3.4, y: -4.3, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3703,7 +3705,7 @@ GameObject:
   - component: {fileID: 1017293751}
   - component: {fileID: 1017293752}
   - component: {fileID: 1017293753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3794,7 +3796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1025678289}
   - component: {fileID: 1025678288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Board
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3865,7 +3867,7 @@ Transform:
   m_GameObject: {fileID: 1025678287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 209.2073, y: 297.97, z: 0.0294}
+  m_LocalPosition: {x: 209.2073, y: 297.97, z: 0}
   m_LocalScale: {x: 0.6852312, y: 0.49671775, z: 0.415}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3907,7 +3909,7 @@ GameObject:
   - component: {fileID: 1069150748}
   - component: {fileID: 1069150747}
   - component: {fileID: 1069150746}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3923,7 +3925,7 @@ Transform:
   m_GameObject: {fileID: 1069150744}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.75, y: -3.1, z: 0}
+  m_LocalPosition: {x: -0.75, y: -3.1, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4132,7 +4134,7 @@ GameObject:
   - component: {fileID: 1098126095}
   - component: {fileID: 1098126094}
   - component: {fileID: 1098126096}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4148,7 +4150,7 @@ Transform:
   m_GameObject: {fileID: 1098126092}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.6, y: -3.9, z: 0}
+  m_LocalPosition: {x: 6.6, y: -3.9, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4270,7 +4272,7 @@ GameObject:
   - component: {fileID: 1154307589}
   - component: {fileID: 1154307588}
   - component: {fileID: 1154307587}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4286,7 +4288,7 @@ Transform:
   m_GameObject: {fileID: 1154307585}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2, y: 0.45, z: 0}
+  m_LocalPosition: {x: -7.2, y: 0.45, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4407,7 +4409,7 @@ GameObject:
   - component: {fileID: 1173583098}
   - component: {fileID: 1173583099}
   - component: {fileID: 1173583100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4500,7 +4502,7 @@ GameObject:
   - component: {fileID: 1181569442}
   - component: {fileID: 1181569441}
   - component: {fileID: 1181569440}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4516,7 +4518,7 @@ Transform:
   m_GameObject: {fileID: 1181569438}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -2.1, z: 0}
+  m_LocalPosition: {x: -5, y: -2.1, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4638,7 +4640,7 @@ GameObject:
   - component: {fileID: 1193624015}
   - component: {fileID: 1193624014}
   - component: {fileID: 1193624013}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4654,7 +4656,7 @@ Transform:
   m_GameObject: {fileID: 1193624011}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 3.8, z: 0}
+  m_LocalPosition: {x: -1, y: 3.8, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4854,7 +4856,7 @@ GameObject:
   - component: {fileID: 1283340308}
   - component: {fileID: 1283340309}
   - component: {fileID: 1283340310}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4947,7 +4949,7 @@ GameObject:
   - component: {fileID: 1294647208}
   - component: {fileID: 1294647207}
   - component: {fileID: 1294647206}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4963,7 +4965,7 @@ Transform:
   m_GameObject: {fileID: 1294647204}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4, y: -5.5, z: 0}
+  m_LocalPosition: {x: -3.4, y: -5.5, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5220,7 +5222,7 @@ GameObject:
   - component: {fileID: 1324337695}
   - component: {fileID: 1324337696}
   - component: {fileID: 1324337697}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5397,7 +5399,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1409282589}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checkers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5413,7 +5415,7 @@ Transform:
   m_GameObject: {fileID: 1409282588}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 208.40231, y: 297.98544, z: 0.050089955}
+  m_LocalPosition: {x: 208.40231, y: 297.98544, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5446,7 +5448,7 @@ GameObject:
   - component: {fileID: 1411822580}
   - component: {fileID: 1411822579}
   - component: {fileID: 1411822578}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5462,7 +5464,7 @@ Transform:
   m_GameObject: {fileID: 1411822576}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 3.2, z: 0}
+  m_LocalPosition: {x: -1, y: 3.2, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5635,7 +5637,7 @@ GameObject:
   - component: {fileID: 1483079223}
   - component: {fileID: 1483079224}
   - component: {fileID: 1483079225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5727,7 +5729,7 @@ GameObject:
   - component: {fileID: 1490444551}
   - component: {fileID: 1490444552}
   - component: {fileID: 1490444553}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5819,7 +5821,7 @@ GameObject:
   - component: {fileID: 1540530567}
   - component: {fileID: 1540530568}
   - component: {fileID: 1540530569}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6086,7 +6088,7 @@ GameObject:
   - component: {fileID: 1624492328}
   - component: {fileID: 1624492327}
   - component: {fileID: 1624492326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6102,7 +6104,7 @@ Transform:
   m_GameObject: {fileID: 1624492324}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.65, y: 2.6, z: 0}
+  m_LocalPosition: {x: 1.65, y: 2.6, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6484,7 +6486,7 @@ GameObject:
   - component: {fileID: 1686292387}
   - component: {fileID: 1686292388}
   - component: {fileID: 1686292389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6576,7 +6578,7 @@ GameObject:
   - component: {fileID: 1697174834}
   - component: {fileID: 1697174835}
   - component: {fileID: 1697174836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6668,7 +6670,7 @@ GameObject:
   - component: {fileID: 1705441626}
   - component: {fileID: 1705441627}
   - component: {fileID: 1705441628}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6761,7 +6763,7 @@ GameObject:
   - component: {fileID: 1708294847}
   - component: {fileID: 1708294846}
   - component: {fileID: 1708294845}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6777,7 +6779,7 @@ Transform:
   m_GameObject: {fileID: 1708294843}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.75, y: -4.9, z: 0}
+  m_LocalPosition: {x: -0.75, y: -4.9, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7073,7 +7075,7 @@ GameObject:
   - component: {fileID: 1750847330}
   - component: {fileID: 1750847329}
   - component: {fileID: 1750847328}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7089,7 +7091,7 @@ Transform:
   m_GameObject: {fileID: 1750847326}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.2, y: 1.65, z: 0}
+  m_LocalPosition: {x: 4.2, y: 1.65, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7211,7 +7213,7 @@ GameObject:
   - component: {fileID: 1754150434}
   - component: {fileID: 1754150433}
   - component: {fileID: 1754150432}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7227,7 +7229,7 @@ Transform:
   m_GameObject: {fileID: 1754150430}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2, y: -0.15, z: 0}
+  m_LocalPosition: {x: -7.2, y: -0.15, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7451,7 +7453,7 @@ GameObject:
   - component: {fileID: 1898894057}
   - component: {fileID: 1898894056}
   - component: {fileID: 1898894055}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7467,7 +7469,7 @@ Transform:
   m_GameObject: {fileID: 1898894053}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.65, y: 3.8, z: 0}
+  m_LocalPosition: {x: 1.65, y: 3.8, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7588,7 +7590,7 @@ GameObject:
   - component: {fileID: 1913339199}
   - component: {fileID: 1913339200}
   - component: {fileID: 1913339201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7681,7 +7683,7 @@ GameObject:
   - component: {fileID: 1919275798}
   - component: {fileID: 1919275797}
   - component: {fileID: 1919275796}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player2Checker13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7697,7 +7699,7 @@ Transform:
   m_GameObject: {fileID: 1919275794}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5, y: -2.7, z: 0}
+  m_LocalPosition: {x: -5, y: -2.7, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7905,7 +7907,7 @@ GameObject:
   - component: {fileID: 2029023989}
   - component: {fileID: 2029023990}
   - component: {fileID: 2029023991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7998,7 +8000,7 @@ GameObject:
   - component: {fileID: 2059468213}
   - component: {fileID: 2059468212}
   - component: {fileID: 2059468211}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8014,7 +8016,7 @@ Transform:
   m_GameObject: {fileID: 2059468209}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.75, y: -3.7, z: 0}
+  m_LocalPosition: {x: -0.75, y: -3.7, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8136,7 +8138,7 @@ GameObject:
   - component: {fileID: 2071735103}
   - component: {fileID: 2071735102}
   - component: {fileID: 2071735101}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8152,7 +8154,7 @@ Transform:
   m_GameObject: {fileID: 2071735099}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.2, y: 2.25, z: 0}
+  m_LocalPosition: {x: 4.2, y: 2.25, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8273,7 +8275,7 @@ GameObject:
   - component: {fileID: 2096214698}
   - component: {fileID: 2096214699}
   - component: {fileID: 2096214700}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8365,7 +8367,7 @@ GameObject:
   - component: {fileID: 2101360549}
   - component: {fileID: 2101360550}
   - component: {fileID: 2101360551}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Square4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8458,7 +8460,7 @@ GameObject:
   - component: {fileID: 2107491639}
   - component: {fileID: 2107491638}
   - component: {fileID: 2107491637}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player1Checker5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8474,7 +8476,7 @@ Transform:
   m_GameObject: {fileID: 2107491635}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.75, y: -4.3, z: 0}
+  m_LocalPosition: {x: -0.75, y: -4.3, z: 1}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

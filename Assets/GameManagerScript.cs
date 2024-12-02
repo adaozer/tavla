@@ -4,52 +4,45 @@ public class GameManagerScript : MonoBehaviour
 {
     public static GameManagerScript Instance;
 
-    public checkerScript selectedChecker;
-    public collisionScript selectedPoint;
+    public GameObject selectedChecker;
 
     private void Awake()
     {
         if (Instance == null)
-        {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // Keep GameManager persistent across scenes
-        }
         else
-        {
-            Destroy(gameObject); // Ensure only one instance exists
-        }
+            Destroy(gameObject);
     }
 
-    public void OnCheckerClicked(checkerScript checker)
+    public void OnCheckerClicked(GameObject checker)
     {
         selectedChecker = checker;
-        Debug.Log($"Checker selected at point {checker.pointIndex}");
+        Debug.Log($"Selected checker: {checker.name}");
+
+        // Enable colliders on all board points
+        foreach (collisionScript point in FindObjectsOfType<collisionScript>())
+        {
+            point.m_Collider.enabled = true;
+        }
     }
 
     public void OnPointClicked(collisionScript point)
     {
         if (selectedChecker != null)
         {
-            MoveCheckerToPoint(selectedChecker, point);
-        }
-        else
-        {
-            Debug.Log("No checker selected. Click ignored.");
-        }
-    }
+            Debug.Log($"Moving checker {selectedChecker.name} to point {point.name}");
 
-    private void MoveCheckerToPoint(checkerScript checker, collisionScript point)
-    {
-        if (point == null)
-        {
-            Debug.Log("Invalid point. Move action cancelled.");
-            return;
+            // Move the checker to the selected board point
+            selectedChecker.transform.position = point.transform.position;
+
+            // Reset the game state
+            selectedChecker = null;
+
+            // Disable all board point colliders
+            foreach (collisionScript p in FindObjectsOfType<collisionScript>())
+            {
+                p.m_Collider.enabled = false;
+            }
         }
-
-        checker.transform.position = point.transform.position; // Update position
-        checker.pointIndex = point.pointIndex; // Update checker's logical point index
-        Debug.Log($"Checker moved to point {point.pointIndex}");
-
-        selectedChecker = null; // Deselect the checker after moving
     }
 }
